@@ -1,0 +1,11 @@
+#!/bin/bash
+date
+echo updating system software - update
+sudo apt-get update
+echo updating system software - upgrade
+sudo apt-get upgrade
+echo installing python_pip
+sudo apt-get install python-dev python-pip
+y
+echo installing WiringPi2
+sudo pip install wiringpi2
