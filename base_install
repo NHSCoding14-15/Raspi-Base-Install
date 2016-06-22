@@ -8,4 +8,4 @@ sudo pip install wiringpi2
 echo installing IdleX
 sudo pip install idlex
 echo installing tightvnc
-sudo apt-get install tightvnc
+sudo apt-get install tightvncserver
